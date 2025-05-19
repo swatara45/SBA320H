@@ -1,10 +1,10 @@
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useState } from 'react'
 import './App.css'
-import Form from './components/Form'
-import WeatherDisplay from './components/WeatherDisplay'
+import Form from './pages/form'
+import WeatherDisplay from './pages/WeatherDisplay'
 
 
-const API_KEY = 'c7a33ec5d9e47c3e58af2976fbb65e87'
+const API_KEY = '13fee6b66218a021a32d5ae545503994'
 
 
 function App() {
