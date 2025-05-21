@@ -46,4 +46,4 @@ Lastly, the following sites collect a bunch of APIs together, so you can take a 
 
 Public APIs List
 Rapid API
-Note, however, that not all APIs are free, and many listed may require payment. We highly suggest to use a free API for your first project dealing 
+Note, however, that not all APIs are free, and many listed may require payment. or your first project dealing 
