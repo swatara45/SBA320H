@@ -46,4 +46,4 @@ Lastly, the following sites collect a bunch of APIs together, so you can take a 
 
 Public APIs List
 Rapid API
-Note, however, that not all APIs are
+Note, however, that 
