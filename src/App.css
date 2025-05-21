@@ -1,42 +1,67 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom, #f0f4f8, #dfe7ec);
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+h1 {
   text-align: center;
+  margin-top: 20px;
+  color: #2c3e50;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+h2 {
+  text-align: center;
+  color: #34495e;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.weather-display {
+  background: #fff;
+  margin: 20px auto;
+  padding: 20px;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.zipcode-input {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
 }
 
-.card {
-  padding: 2em;
+.zipcode-input input {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  width: 200px;
+  margin-right: 10px;
 }
 
-.read-the-docs {
-  color: #888;
+.zipcode-input button {
+  padding: 10px 16px;
+  font-size: 1rem;
+  border: none;
+  background-color: #3498db;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.zipcode-input button:hover {
+  background-color: #2980b9;
+}
+
+.auth-page {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.auth-page h1 {
+  font-size: 2.5rem;
+  color: #e67e22;
 }
