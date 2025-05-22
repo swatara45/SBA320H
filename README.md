@@ -31,10 +31,10 @@ Look into localstorage so you can save data to the user's browser.
 📋 Finding an API
 Below is a non-exhaustive list of some free APIs you can use. There are many APIs out there, so if you find one not on this list that you'd like to use, feel free! Please note that some may require signing up for an API key (e.g. the Marvel API).
 
-#Weather App
-1. Your project is a React weather app that:
+# Weather App Project 
+1. My project is a React weather app 
 
-2. Lets users enter a U.S. ZIP code.
+2. It lets users enter a U.S.A. ZIP code.
 
 3. Fetches current weather data from the OpenWeatherMap API.
 

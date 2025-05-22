@@ -14,10 +14,11 @@ function App() {
   const [weather, setWeather] = useState({});
 
   //Makes an async call to the OpenWeatherMap API using the provided ZIP code.
+  //For temperature in Celsius use units=metric
   async function getWeather(zipcode) {
     try {
       const response = await axios.get(
-        `https://api.openweathermap.org/data/2.5/weather?zip=${zipcode},us&appid=${API_KEY}&units=metric`
+        `https://api.openweathermap.org/data/2.5/weather?zip=${zipcode},us&appid=${API_KEY}&units=metric`   
       );
 
       const data = response.data;
