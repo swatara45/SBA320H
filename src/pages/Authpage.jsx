@@ -6,7 +6,7 @@ export default function AuthPage() {
 
   function handleSubmit(e) {
     e.preventDefault();
-    // Here you'd usually send data to an API for authentication
+    //send data to the API for authentication
     console.log('Logging in with:', { username, password });
     // Add real login logic here
   }

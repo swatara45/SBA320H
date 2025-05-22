@@ -13,6 +13,7 @@ const API_KEY = '13fee6b66218a021a32d5ae545503994';
 function App() {
   const [weather, setWeather] = useState({});
 
+  //Makes an async call to the OpenWeatherMap API using the provided ZIP code.
   async function getWeather(zipcode) {
     try {
       const response = await axios.get(
@@ -48,7 +49,7 @@ function App() {
           }
         />
         <Route path="*" element={<NotFound />} />
-        <Route path="/auth" element={<AuthPage />} />
+        <Route path="/auth" element={<AuthPage />} /> 
       </Routes>
     </>
   );

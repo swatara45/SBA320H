@@ -1,3 +1,5 @@
+// accepts a prop called weather
+
 export default function WeatherDisplay({weather}) {
     function loaded() {
         return (
