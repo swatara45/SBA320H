@@ -8,6 +8,7 @@ Once you have an idea for your project, keeping the below requirements and resou
 
 
 # Weather App Project 
+https://api.openweathermap.org/data/2.5/weather?zip={zip code},{country code}&appid={API key}
 1. My project is a React weather app 
 
 2. It lets users enter a U.S.A. ZIP code.
