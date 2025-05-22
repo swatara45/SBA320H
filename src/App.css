@@ -46,14 +46,14 @@ h2 {
   padding: 10px 16px;
   font-size: 1rem;
   border: none;
-  background-color: #3498db;
+  background-color: #156194;
   color: white;
   border-radius: 8px;
   cursor: pointer;
 }
 
 .zipcode-input button:hover {
-  background-color: #2980b9;
+  background-color: #0b3855;
 }
 
 .auth-page {

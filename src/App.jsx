@@ -31,7 +31,7 @@ function App() {
   }
 
   useEffect(() => {
-    getWeather('60601');
+    getWeather('10001'); // Default to New York City
   }, []);
 
     return (
