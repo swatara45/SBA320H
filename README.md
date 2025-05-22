@@ -36,7 +36,7 @@ Routing with React Router:
 
 *: Custom 404 page for invalid routes
 
-# Built With
+# Technologies used
 React – Functional components and hooks
 
 React Router DOM  – For client-side routing
