@@ -31,18 +31,9 @@ Look into localstorage so you can save data to the user's browser.
 📋 Finding an API
 Below is a non-exhaustive list of some free APIs you can use. There are many APIs out there, so if you find one not on this list that you'd like to use, feel free! Please note that some may require signing up for an API key (e.g. the Marvel API).
 
-Marvel
-Weather
-News
-Giphy
-Pokemon
-Card Deck
-Google Books
-City of Chicago
-Beer
-Chuck Norris
-Rick and Morty
-Lastly, the following sites collect a bunch of APIs together, so you can take a look through their libraries and try to find an API that interests you!
+#Weather App
+
+
 
 Public APIs List
 Rapid API

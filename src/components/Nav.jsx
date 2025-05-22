@@ -6,7 +6,7 @@ export default function Nav() {
     <nav className={styles.mainNav}>
       <ul>
         <li>
-          <Link to="/WeatherDisplay">WeatherDisplay</Link>
+          <Link to="/WeatherDisplay">Weather</Link>
         </li>
         <li>
           <Link to="/auth">SignIn/SignUp</Link>
